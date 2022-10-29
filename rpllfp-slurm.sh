@@ -2,16 +2,10 @@
 
 # Submit this script with: sbatch <this-filename>
 
-<<<<<<< HEAD
-#SBATCH --time=2:00:00   # walltime
-#SBATCH --ntasks=1   # number of processor cores (i.e. tasks)
-#SBATCH --nodes=1   # number of nodes
-=======
 #SBATCH --time=24:00:00   # walltime
 #SBATCH --ntasks=1   # number of processor cores (i.e. tasks)
 #SBATCH --nodes=1   # number of nodes
 #SBATCH --cpus-per-task=1	# number of processors per task
->>>>>>> upstream/main
 #SBATCH -J "rpllfp"   # job name
 
 ## /SBATCH -p general # partition (queue)
